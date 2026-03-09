@@ -76,6 +76,11 @@ const ContactFooter = () => {
           <p className="text-muted-foreground font-body text-sm">
             © {new Date().getFullYear()} Burgerhof Dachau. Alle Rechte vorbehalten.
           </p>
+          <div className="flex items-center justify-center gap-4 mt-3">
+            <Link to="/impressum" className="text-muted-foreground hover:text-primary transition-colors font-body text-sm">Impressum</Link>
+            <span className="text-border">|</span>
+            <Link to="/datenschutz" className="text-muted-foreground hover:text-primary transition-colors font-body text-sm">Datenschutz</Link>
+          </div>
         </div>
       </div>
     </footer>
